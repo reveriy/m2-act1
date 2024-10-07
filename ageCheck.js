@@ -1,10 +1,10 @@
-let Age = 6;
-if (Age <= 13){
-    console.log("You are a child.");
+let age = prompt("Enter your age:");
+age = parseInt(age);
 
-} else if(Age >=19) {
-    console.log("You are a teenager.");
-
+if (age < 13) {
+  console.log("You are a child.");
+} else if (age >= 13 && age <= 19) {
+  console.log("You are a teenager.");
 } else {
-    console.log("You are an adult.");
+  console.log("You are an adult.");
 }
